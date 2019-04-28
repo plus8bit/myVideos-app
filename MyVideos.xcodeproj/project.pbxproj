@@ -13,6 +13,7 @@
 		01B9E34A22760FAB00E33E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9E34822760FAB00E33E56 /* LaunchScreen.storyboard */; };
 		01B9E354227610B700E33E56 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E353227610B600E33E56 /* Video.swift */; };
 		01B9E356227611A300E33E56 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E355227611A300E33E56 /* VideoTableViewController.swift */; };
+		01B9E35822761DBA00E33E56 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E35722761DBA00E33E56 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		01B9E34B22760FAB00E33E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01B9E353227610B600E33E56 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		01B9E355227611A300E33E56 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		01B9E35722761DBA00E33E56 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				01B9E33F22760FA400E33E56 /* AppDelegate.swift */,
 				01B9E34322760FA400E33E56 /* Main.storyboard */,
 				01B9E355227611A300E33E56 /* VideoTableViewController.swift */,
+				01B9E35722761DBA00E33E56 /* TableViewCell.swift */,
 				01B9E353227610B600E33E56 /* Video.swift */,
 				01B9E34622760FAB00E33E56 /* Assets.xcassets */,
 				01B9E34822760FAB00E33E56 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B9E354227610B700E33E56 /* Video.swift in Sources */,
+				01B9E35822761DBA00E33E56 /* TableViewCell.swift in Sources */,
 				01B9E356227611A300E33E56 /* VideoTableViewController.swift in Sources */,
 				01B9E34022760FA400E33E56 /* AppDelegate.swift in Sources */,
 			);
