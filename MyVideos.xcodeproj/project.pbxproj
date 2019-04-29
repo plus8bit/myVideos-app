@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015D793C227793750035DE55 /* v6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D7936227793740035DE55 /* v6.mp4 */; };
+		015D793D227793750035DE55 /* v1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D7937227793750035DE55 /* v1.mp4 */; };
+		015D793E227793750035DE55 /* v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D7938227793750035DE55 /* v2.mp4 */; };
+		015D793F227793750035DE55 /* v4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D7939227793750035DE55 /* v4.mp4 */; };
+		015D7940227793750035DE55 /* v5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D793A227793750035DE55 /* v5.mp4 */; };
+		015D7941227793750035DE55 /* v3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 015D793B227793750035DE55 /* v3.mp4 */; };
 		01B9E34022760FA400E33E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9E33F22760FA400E33E56 /* AppDelegate.swift */; };
 		01B9E34522760FA400E33E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9E34322760FA400E33E56 /* Main.storyboard */; };
 		01B9E34722760FAB00E33E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9E34622760FAB00E33E56 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015D7936227793740035DE55 /* v6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v6.mp4; path = ../v6.mp4; sourceTree = "<group>"; };
+		015D7937227793750035DE55 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v1.mp4; path = ../v1.mp4; sourceTree = "<group>"; };
+		015D7938227793750035DE55 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v2.mp4; path = ../v2.mp4; sourceTree = "<group>"; };
+		015D7939227793750035DE55 /* v4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v4.mp4; path = ../v4.mp4; sourceTree = "<group>"; };
+		015D793A227793750035DE55 /* v5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v5.mp4; path = ../v5.mp4; sourceTree = "<group>"; };
+		015D793B227793750035DE55 /* v3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v3.mp4; path = ../v3.mp4; sourceTree = "<group>"; };
 		01B9E33C22760FA400E33E56 /* MyVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9E33F22760FA400E33E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01B9E34422760FA400E33E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +51,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015D7942227793AB0035DE55 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				015D7937227793750035DE55 /* v1.mp4 */,
+				015D7938227793750035DE55 /* v2.mp4 */,
+				015D793B227793750035DE55 /* v3.mp4 */,
+				015D7939227793750035DE55 /* v4.mp4 */,
+				015D793A227793750035DE55 /* v5.mp4 */,
+				015D7936227793740035DE55 /* v6.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		01B9E33322760FA400E33E56 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				01B9E33F22760FA400E33E56 /* AppDelegate.swift */,
+				015D7942227793AB0035DE55 /* Videos */,
 				01B9E34322760FA400E33E56 /* Main.storyboard */,
 				01B9E355227611A300E33E56 /* VideoTableViewController.swift */,
 				01B9E35722761DBA00E33E56 /* TableViewCell.swift */,
@@ -128,9 +154,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015D7940227793750035DE55 /* v5.mp4 in Resources */,
+				015D7941227793750035DE55 /* v3.mp4 in Resources */,
+				015D793D227793750035DE55 /* v1.mp4 in Resources */,
 				01B9E34A22760FAB00E33E56 /* LaunchScreen.storyboard in Resources */,
+				015D793C227793750035DE55 /* v6.mp4 in Resources */,
+				015D793F227793750035DE55 /* v4.mp4 in Resources */,
 				01B9E34722760FAB00E33E56 /* Assets.xcassets in Resources */,
 				01B9E34522760FA400E33E56 /* Main.storyboard in Resources */,
+				015D793E227793750035DE55 /* v2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
